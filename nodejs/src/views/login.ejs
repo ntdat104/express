@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Đăng nhập</title>
+	</head>
+	<body>
+		<form method="POST" action="/login">
+			<h1>Đăng nhập</h1>
+			<div style="margin-bottom: 0.5rem" class="input-group">
+				<input
+					type="text"
+					name="email"
+					placeholder="email"
+					autocomplete="off"
+				/>
+			</div>
+			<div style="margin-bottom: 0.5rem" class="input-group">
+				<input
+					type="password"
+					name="pass"
+					placeholder="password"
+					autocomplete="off"
+				/>
+			</div>
+			<button type="submit">Login</button>
+		</form>
+	</body>
+</html>
